@@ -1,0 +1,36 @@
+# Demo / calibration videos (personal data)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Pipeline output folders
+output/
+
+# MediaPipe / ML model files (too large, download separately)
+*.task
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Calibration results (machine-specific)
+arm_calib.json
+calib_robot_*.xml
+
+# Debug images generated from personal video footage
+*.png
+*.jpg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
